@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091ACAC9232A9C53004001FB /* ViewBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D194C232A91D900903AEC /* ViewBridge.framework */; };
+		0924E79F23292D74002E18FC /* NCWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 0924E79E23292D74002E18FC /* NCWidget.m */; };
+		0925E0332328A1EF00F63FB0 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0925E0322328A1EF00F63FB0 /* NotificationCenter.framework */; };
+		3F40FFD1231441BE007C354E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F40FFD0231441BE007C354E /* AppDelegate.m */; };
+		3F40FFD3231441C0007C354E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F40FFD2231441C0007C354E /* Assets.xcassets */; };
+		3F40FFD6231441C0007C354E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F40FFD4231441C0007C354E /* MainMenu.xib */; };
+		3F40FFD9231441C0007C354E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F40FFD8231441C0007C354E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091ACAC8232A9AA3004001FB /* NSRemoteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRemoteView.h; sourceTree = "<group>"; };
+		091D194C232A91D900903AEC /* ViewBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ViewBridge.framework; path = ../../../../../../System/Library/PrivateFrameworks/ViewBridge.framework; sourceTree = "<group>"; };
+		0924E79D23292D74002E18FC /* NCWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCWidget.h; sourceTree = "<group>"; };
+		0924E79E23292D74002E18FC /* NCWidget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCWidget.m; sourceTree = "<group>"; };
+		0925E0322328A1EF00F63FB0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		0962EE912320AF97007E6AC8 /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		3F40FFCC231441BE007C354E /* TodayViewHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayViewHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F40FFCF231441BE007C354E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F40FFD0231441BE007C354E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F40FFD2231441C0007C354E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F40FFD5231441C0007C354E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3F40FFD7231441C0007C354E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F40FFD8231441C0007C354E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F40FFDA231441C0007C354E /* TodayViewHost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodayViewHost.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F40FFC9231441BE007C354E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091ACAC9232A9C53004001FB /* ViewBridge.framework in Frameworks */,
+				0925E0332328A1EF00F63FB0 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0925E0312328A1EF00F63FB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091D194C232A91D900903AEC /* ViewBridge.framework */,
+				0925E0322328A1EF00F63FB0 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F40FFC3231441BE007C354E = {
+			isa = PBXGroup;
+			children = (
+				3F40FFCE231441BE007C354E /* TodayViewHost */,
+				3F40FFCD231441BE007C354E /* Products */,
+				0925E0312328A1EF00F63FB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F40FFCD231441BE007C354E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F40FFCC231441BE007C354E /* TodayViewHost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F40FFCE231441BE007C354E /* TodayViewHost */ = {
+			isa = PBXGroup;
+			children = (
+				091ACAC8232A9AA3004001FB /* NSRemoteView.h */,
+				0962EE912320AF97007E6AC8 /* Protocols.h */,
+				0924E79D23292D74002E18FC /* NCWidget.h */,
+				0924E79E23292D74002E18FC /* NCWidget.m */,
+				3F40FFCF231441BE007C354E /* AppDelegate.h */,
+				3F40FFD0231441BE007C354E /* AppDelegate.m */,
+				3F40FFD2231441C0007C354E /* Assets.xcassets */,
+				3F40FFD4231441C0007C354E /* MainMenu.xib */,
+				3F40FFD7231441C0007C354E /* Info.plist */,
+				3F40FFD8231441C0007C354E /* main.m */,
+				3F40FFDA231441C0007C354E /* TodayViewHost.entitlements */,
+			);
+			path = TodayViewHost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F40FFCB231441BE007C354E /* TodayViewHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F40FFDD231441C0007C354E /* Build configuration list for PBXNativeTarget "TodayViewHost" */;
+			buildPhases = (
+				3F40FFC8231441BE007C354E /* Sources */,
+				3F40FFC9231441BE007C354E /* Frameworks */,
+				3F40FFCA231441BE007C354E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayViewHost;
+			productName = NCPluginPlayground;
+			productReference = 3F40FFCC231441BE007C354E /* TodayViewHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F40FFC4231441BE007C354E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jeremy Legendre";
+				TargetAttributes = {
+					3F40FFCB231441BE007C354E = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3F40FFC7231441BE007C354E /* Build configuration list for PBXProject "TodayViewHost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F40FFC3231441BE007C354E;
+			productRefGroup = 3F40FFCD231441BE007C354E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F40FFCB231441BE007C354E /* TodayViewHost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F40FFCA231441BE007C354E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F40FFD3231441C0007C354E /* Assets.xcassets in Resources */,
+				3F40FFD6231441C0007C354E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F40FFC8231441BE007C354E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0924E79F23292D74002E18FC /* NCWidget.m in Sources */,
+				3F40FFD9231441C0007C354E /* main.m in Sources */,
+				3F40FFD1231441BE007C354E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F40FFD4231441C0007C354E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F40FFD5231441C0007C354E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F40FFDB231441C0007C354E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F40FFDC231441C0007C354E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F40FFDE231441C0007C354E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = TodayViewHost/TodayViewHost.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6LAE5ASX7M;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/TodayViewHost/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jslegendre.TodayViewHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		3F40FFDF231441C0007C354E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = TodayViewHost/TodayViewHost.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6LAE5ASX7M;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/TodayViewHost/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jslegendre.TodayViewHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F40FFC7231441BE007C354E /* Build configuration list for PBXProject "TodayViewHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F40FFDB231441C0007C354E /* Debug */,
+				3F40FFDC231441C0007C354E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F40FFDD231441C0007C354E /* Build configuration list for PBXNativeTarget "TodayViewHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F40FFDE231441C0007C354E /* Debug */,
+				3F40FFDF231441C0007C354E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F40FFC4231441BE007C354E /* Project object */;
+}
